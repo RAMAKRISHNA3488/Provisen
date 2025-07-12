@@ -13,7 +13,7 @@ const Footer = () => {
           </div>
           <div className='right row'>
             <input type='text' placeholder='Enter email address' />
-            <i className='fa fa-paper-plane'></i>
+            <input type='submit' onClick={() => alert("Subscribed!")} value='Subscribe'className='fa fa-paper-plane'/>
           </div>
         </div>
       </section>

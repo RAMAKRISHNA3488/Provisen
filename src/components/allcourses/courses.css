@@ -114,4 +114,336 @@
 }
 /*-------------online---------*/
 @media screen and (max-width: 768px) {
+  /* Grid layout switches to 1 column */
+  .grid2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  /* coursesCard responsiveness */
+  .coursesCard {
+    padding: 30px 10px;
+  }
+
+  .coursesCard .items {
+    padding: 20px;
+  }
+
+  .coursesCard .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .coursesCard .text {
+    margin-left: 0;
+    margin-top: 15px;
+    text-align: center;
+  }
+
+  .coursesCard .text h1 {
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  .coursesCard .rate {
+    margin: 10px 0;
+  }
+
+  .coursesCard .details .box {
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .coursesCard .details .dimg img {
+    margin: 0 auto 10px;
+  }
+
+  .coursesCard .price {
+    margin: 20px 0;
+    padding: 10px;
+  }
+
+  .outline-btn {
+    width: 100%;
+    padding: 12px;
+    font-size: 14px;
+  }
+
+  .coursesCard .img {
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+  }
+
+  /* online course responsiveness */
+  .online .box {
+    padding: 20px 15px;
+  }
+
+  .online h1 {
+    font-size: 18px;
+    line-height: 26px;
+    margin: 15px 0;
+  }
+
+  .online span {
+    font-size: 14px;
+    padding: 4px 16px;
+  }
+
+  .online .img {
+    width: 60px;
+    height: 60px;
+  }
 }
+
+@media (max-width: 991px) {
+  .coursesCard .text h1 {
+    font-size: 18px;
+    line-height: 26px;
+  }
+
+  .coursesCard .text p {
+    font-size: 14px;
+  }
+
+  .coursesCard .details .box {
+    margin-bottom: 5px;
+  }
+
+  .coursesCard .details .dimg img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .coursesCard .price {
+    margin: 10px 0;
+  }
+
+  .coursesCard .img {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+  }
+
+  .online .box {
+    padding: 15px 10px;
+  }
+
+  .online h1 {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 10px 0;
+  }
+
+  .online span {
+    font-size: 12px;
+    padding: 3px 12px;
+  }
+
+  .online .img {
+    width: 50px;
+    height: 50px;
+  }
+}
+@media (max-width: 1200px) {
+  .coursesCard .items {
+    padding: 25px;
+  }
+
+  .coursesCard .text h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .coursesCard .text p {
+    font-size: 15px;
+  }
+
+  .coursesCard .details .box {
+    margin-bottom: 10px;
+  }
+
+  .coursesCard .details .dimg img {
+    width: 45px;
+    height: 45px;
+    margin-bottom: 10px;
+  }
+
+  .coursesCard .price {
+    margin: 20px 0;
+    padding: 12px;
+  }
+
+  .coursesCard .img {
+    width: 70px;
+    height: 70px;
+    padding: 12px;
+  }
+  .online .box {
+    padding: 20px 10px;
+  }
+
+  .online h1 {
+    font-size: 20px;
+    line-height: 30px;
+    margin: 15px 0;
+  }
+
+  .online span {
+    font-size: 14px;
+    padding: 5px 15px;
+  }
+
+  .online .img {
+    width: 70px;
+    height: 70px;
+  } 
+
+}
+.online .box .show {
+    font-size: 14px;
+    padding: 8px 15px;
+  }
+  .online .box:hover .show {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+  .online .box:hover h1 {
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+
+@media (max-width: 768px) {
+  .coursesCard .items {
+    padding: 15px;
+  }
+
+  .coursesCard .text h1 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .coursesCard .text p {
+    font-size: 13px;
+  }
+
+  .coursesCard .details .box {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .coursesCard .details .dimg img {
+    width: 35px;
+    height: 35px;
+    margin-bottom: 10px;
+  }
+
+  .coursesCard .price {
+    margin: 15px 0;
+    padding: 8px;
+  }
+
+  .coursesCard .img {
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+  }
+
+  .online .box {
+    padding: 10px 5px;
+  }
+
+  .online h1 {
+    font-size: 14px;
+    line-height: 22px;
+    margin: 10px 0;
+  }
+
+  .online span {
+    font-size: 10px;
+    padding: 2px 8px;
+  }
+
+  .online .img {
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  .coursesCard .items {
+    padding: 10px;
+  }
+
+  .coursesCard .text h1 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .coursesCard .text p {
+    font-size: 12px;
+  }
+
+  .coursesCard .details .box {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .coursesCard .details .dimg img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 8px;
+  }
+
+  .coursesCard .price {
+    margin: 10px 0;
+    padding: 6px;
+  }
+
+  .coursesCard .img {
+    width: 35px;
+    height: 35px;
+    padding: 6px;
+  }
+
+  .online .box {
+    padding: 8px 3px;
+  }
+
+  .online h1 {
+    font-size: 12px;
+    line-height: 18px;    margin: 8px 0;
+  }
+
+  .online span {
+    font-size: 8px;
+    padding: 2px 6px;
+  }
+
+  .online .img {
+    width: 35px;
+    height: 35px;
+  } 
+  .online .box .show {
+    font-size: 12px;
+    padding: 5px 10px;
+  }
+  .online .box:hover .show {
+    font-size: 14px;
+    padding: 8px 15px;
+  }
+  .online .box:hover h1 {
+    font-size: 16px;
+    line-height: 24px;
+  }   
+
+}
+
